@@ -17,8 +17,8 @@ void agregarProducto(struct Producto producto); // Agrega un producto al inventa
 void verificarProducto(struct Producto producto); // Verifica la existencia de un producto
 void ingresarProducto(); // Permite ingresar un nuevo producto
 void mostrarProducto(struct Producto producto); // Muestra la información de un producto
-void incrementarStock(struct Producto producto, int cantidad); // Incrementa el stock de un producto
-void venderProducto(struct Producto producto, int cantidad); // Vende una cantidad de un producto
+int incrementarStock(int codigo, int cantidad); // Incrementa el stock de un producto
+int venderProducto(int codigo, int cantidad); // Vende una cantidad de un producto
 
 #endif
 
